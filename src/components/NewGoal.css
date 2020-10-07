@@ -1,0 +1,16 @@
+.goal-properties {
+    padding-top: 15px;
+}
+
+.first-row {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.first-row > div {
+    margin-left: 15px;
+}
+
+.first-row > div:first-child {
+    margin-left: 0;
+}

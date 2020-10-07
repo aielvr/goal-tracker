@@ -1,0 +1,126 @@
+* {
+    /* box-sizing: border-box; */
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+#goal-list-page {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+.goal-list {
+    display: flex;
+    flex-flow: column;
+    height: auto;
+    overflow: auto;
+    margin: 15px;
+    /* border-radius: 5px; */
+}
+
+.goal-tab {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+}
+
+.goal-tab > a {
+    padding: 0 10px;
+    height: 100%;
+    background: #bdffa9b8;
+    border-radius: 5px 0 0 0;
+}
+
+.goal-tab > a:nth-child(2) {
+    border-radius: 0 5px 0 0;
+}
+
+.goal-tab > li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.list-section {
+    background: #eefbeab8;
+    /* border: 1px solid #adada9; */
+    border-top: none;
+    flex:1;
+}
+
+.goals > li {
+    display: flex;
+    list-style-type: none; /* Убираем маркеры */
+    padding: 5px 10px;
+    border-bottom: 2px dotted #a7d090;
+    min-height: 60px;
+    align-items: center;
+}
+
+.completed-goal-list {
+    display: none;
+}
+
+.button-container {
+    margin-top: 15px;
+    margin-right: 15px;
+    float: left;
+}
+
+.add-link {
+    border-radius: 1.5rem;
+    height: auto;
+    padding: 5px 10px;
+    /* border-radius: 1em; */
+    background-color: #eefbeab8;
+    border: 1px solid #787c7750;
+}
+
+.delete-btn {
+    /* width: 200px;
+    height: 50px; */
+    /* margin-left: 40px; */
+    /* margin-bottom: 20px; */
+    /* border-radius: 1px; */
+    background-color: transparent;
+    /* border-width: 0; */
+    /* border-radius: 5px; */
+    border: 0px solid black;
+    color: red;
+    font-weight: bold;
+}
+
+.list-group > li {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.li-text {
+    flex-grow: 1;
+}
+
+.upd-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: x-small;
+    min-width: 20px;
+}
+
+.empty-list {
+    min-height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.property-validation {
+    margin: 5px 0 0 0;
+}

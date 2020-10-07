@@ -1,0 +1,16 @@
+.details-container {
+    padding-top: 15px;
+}
+
+#calendar {
+    position: fixed;
+}
+
+/* .calendar-side {
+    padding-top: 15px;
+} */
+
+.details-list > li {
+    display: block;
+    padding-bottom: 15px;
+}

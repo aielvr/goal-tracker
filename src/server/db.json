@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "EIAkhmetianova"
+    }
+  ],
+  "goals": [
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "Тестовая цель 1",
+      "DateBegin": "2020-09-13",
+      "dayQuantity": "15",
+      "description": "Тестовая отредактированная_описание",
+      "details": [
+        {
+          "id": 1,
+          "date": "Sunday, September 13, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 2,
+          "date": "Monday, September 14, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 3,
+          "date": "Tuesday, September 15, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 4,
+          "date": "Wednesday, September 16, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 5,
+          "date": "Thursday, September 17, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 6,
+          "date": "Friday, September 18, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 7,
+          "date": "Saturday, September 19, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 8,
+          "date": "Sunday, September 20, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 9,
+          "date": "Monday, September 21, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 10,
+          "date": "Tuesday, September 22, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 11,
+          "date": "Wednesday, September 23, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 12,
+          "date": "Thursday, September 24, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 13,
+          "date": "Friday, September 25, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 14,
+          "date": "Saturday, September 26, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 15,
+          "date": "Sunday, September 27, 2020",
+          "dateNote": ""
+        }
+      ]
+    },
+    {
+      "name": "test goal2",
+      "DateBegin": "2020-09-17",
+      "dayQuantity": "5",
+      "description": "",
+      "details": [
+        {
+          "id": 1,
+          "date": "Thursday, September 17, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 2,
+          "date": "Friday, September 18, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 3,
+          "date": "Saturday, September 19, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 4,
+          "date": "Sunday, September 20, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 5,
+          "date": "Monday, September 21, 2020",
+          "dateNote": ""
+        },
+        {
+          "id": 6,
+          "date": "Tuesday, September 22, 2020",
+          "dateNote": ""
+        }
+      ],
+      "userId": "1",
+      "id": 3
+    }
+  ]
+}

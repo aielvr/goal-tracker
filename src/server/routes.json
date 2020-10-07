@@ -1,0 +1,3 @@
+{
+    "/users/:userId/goals/:goalId": "/goals/:goalId"
+}

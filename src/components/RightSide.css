@@ -1,0 +1,19 @@
+/* .details-container {
+    border: 1px solid #adada9;
+    position: relative;
+} */
+
+.right-side {
+    width: 50%;
+    height: 100vh;
+}
+
+.progress-bar-wrapper {
+    height: 30px;
+    width: calc(100% - 30px);
+    position: absolute;
+    top: calc(50% - 15px);
+    margin: 0;
+    /* border: 1px red solid; */
+    line-height: 50px;
+}
